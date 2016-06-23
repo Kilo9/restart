@@ -3,7 +3,10 @@
 #make sure to run from correct dir
 if [ ! -d tmp ]; then
     mkdir tmp
+    echo "[info] Made tmp dir"
 fi
 
 touch tmp/restart.txt
+echo "[info] touched tmp/restart.txt"
 touch ~/.pow/restart.txt
+echo "[info] touched ~/.pow/restart.txt"
