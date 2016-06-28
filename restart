@@ -8,5 +8,5 @@ fi
 
 touch tmp/restart.txt
 echo "[info] touched tmp/restart.txt"
-touch ~/.pow/restart.txt
-echo "[info] touched ~/.pow/restart.txt"
+#touch ~/.pow/restart.txt
+#echo "[info] touched ~/.pow/restart.txt"
